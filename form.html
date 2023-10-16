@@ -7,8 +7,8 @@
     <h1>Stroke Prediction Form</h1>
     <form method="POST" action="/">
         <label for="gender">Gender:</label>
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="1"> Male
+        <input type="radio" name="gender" value="0"> Female
         <br>
 
         <label for="age">Age:</label>
@@ -26,23 +26,24 @@
         <br>
 
         <label for="ever_married">Ever Married:</label>
-        <input type="radio" name="ever_married" value="Yes"> Yes
-        <input type="radio" name="ever_married" value="No"> No
+        <input type="radio" name="ever_married" value="1"> Yes
+        <input type="radio" name="ever_married" value="0"> No
         <br>
 
         <label for="work_type">Work Type:</label>
         <select name="work_type">
-            <option value="Private">Private</option>
-            <option value="Self-employed">Self-employed</option>
-            <option value="Govt_job">Govt_job</option>
-            <option value="children">Children</option>
-            <option value="Never_worked">Never_worked</option>
+            <option value="0">Govt_job</option>
+            <option value="1">Never_worked</option>
+            <option value="2">Private</option>
+            <option value="3">Self-employed</option>
+            <option value="4">Children</option>
+            
         </select>
         <br>
 
         <label for="Residence_type">Residence Type:</label>
-        <input type="radio" name="Residence_type" value="Urban"> Urban
-        <input type="radio" name="Residence_type" value="Rural"> Rural
+        <input type="radio" name="Residence_type" value="1"> Urban
+        <input type="radio" name="Residence_type" value="0"> Rural
         <br>
 
         <label for="avg_glucose_level">Average Glucose Level:</label>
